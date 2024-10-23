@@ -3,8 +3,8 @@
 
 # COMMAND ----------
 
-!cp ../requirements.txt ~/.
-%pip install -r ~/requirements.txt
+# MAGIC %sh cp ../requirements.txt ~/.
+# MAGIC %pip install -r ~/requirements.txt
 
 # COMMAND ----------
 
