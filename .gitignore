@@ -1,0 +1,13 @@
+# Ignore environment files with secrets
+.env
+.env.*
+
+# Ignore keys and secret files
+*.key
+*.pem
+*.crt
+*.pfx
+
+# Ignore config files with passwords or API keys
+config/*.json
+*.secret
